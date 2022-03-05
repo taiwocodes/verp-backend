@@ -1889,6 +1889,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "VerpBackendData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.14",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14"
+        },
+        "compile": {
+          "bin/placeholder/VerpBackendData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VerpBackendData.dll": {}
+        }
+      },
+      "VerpBackendService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "VerpBackendData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VerpBackendService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VerpBackendService.dll": {}
+        }
       }
     }
   },
@@ -6591,6 +6618,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "VerpBackendData/1.0.0": {
+      "type": "project",
+      "path": "../VerpBackendData/VerpBackendData.csproj",
+      "msbuildProject": "../VerpBackendData/VerpBackendData.csproj"
+    },
+    "VerpBackendService/1.0.0": {
+      "type": "project",
+      "path": "../VerpBackendService/VerpBackendService.csproj",
+      "msbuildProject": "../VerpBackendService/VerpBackendService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6600,7 +6637,9 @@
       "Microsoft.EntityFrameworkCore >= 5.0.14",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.14",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "VerpBackendData >= 1.0.0",
+      "VerpBackendService >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6629,7 +6668,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj": {
+              "projectPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj"
+            },
+            "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendService\\VerpBackendService.csproj": {
+              "projectPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendService\\VerpBackendService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
