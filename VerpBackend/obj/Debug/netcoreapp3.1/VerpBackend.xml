@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VerpBackend</name>
+    </assembly>
+    <members>
+        <member name="M:VerpBackend.Controllers.AuthController.Authenticate(VerpBackendData.ViewModels.Auth.AuthenticateUserVM)">
+            <summary>
+             This allows authentication into the application.
+            </summary>
+            <param name="authData"></param>
+            <returns>Authentication Token</returns>
+        </member>
+    </members>
+</doc>

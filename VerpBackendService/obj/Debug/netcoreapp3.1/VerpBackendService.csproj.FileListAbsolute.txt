@@ -1,0 +1,12 @@
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\bin\Debug\netcoreapp3.1\VerpBackendService.deps.json
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\bin\Debug\netcoreapp3.1\VerpBackendService.dll
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\bin\Debug\netcoreapp3.1\VerpBackendService.pdb
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\bin\Debug\netcoreapp3.1\VerpBackendData.dll
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\bin\Debug\netcoreapp3.1\VerpBackendData.pdb
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.csproj.AssemblyReference.cache
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.AssemblyInfoInputs.cache
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.AssemblyInfo.cs
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.csproj.CoreCompileInputs.cache
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.csproj.CopyComplete
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.dll
+C:\Users\INFORMATION TECH\Documents\CustomSoftwareApplications\VerpBackend\VerpBackend\VerpBackendService\obj\Debug\netcoreapp3.1\VerpBackendService.pdb

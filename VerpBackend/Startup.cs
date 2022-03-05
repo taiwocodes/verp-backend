@@ -100,7 +100,7 @@ namespace VerpBackend
             app.UseSwaggerUI(options =>
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "VERP Backend API");
-                options.RoutePrefix = "/swagger/v1/swagger.json";
+                //options.RoutePrefix = "/swagger/v1/swagger.json";
             });
         }
     }
