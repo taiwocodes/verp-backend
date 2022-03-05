@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using VerpBackendData.Interfaces;
+using VerpBackendData.ViewModels.Auth;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,19 +10,30 @@ using System.Threading.Tasks;
 namespace VerpBackend.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
+    [Authorize]
     public class AuthController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        private readonly IJwtAuthenticationManager _jwtAuthenticationManager;
 
-        private readonly ILogger<AuthController> _logger;
-
-        public AuthController(ILogger<AuthController> logger)
+        public AuthController(IJwtAuthenticationManager jwtAuthenticationManager)
         {
-            _logger = logger;
+            _jwtAuthenticationManager = jwtAuthenticationManager;
+        }
+
+        /// <summary>
+        ///  This allows authentication into the application.
+        /// </summary>
+        /// <param name="authData"></param>
+        /// <returns>Authentication Token</returns>
+        [HttpPost("authenticate")]
+        [AllowAnonymous]
+        public IActionResult Authenticate([FromBody] AuthenticateUserVM authData)
+        {
+            var token = _jwtAuthenticationManager.Authenticate(authData);
+            if (token == null)
+                return Unauthorized();
+            return Ok(token);
         }
 
     }
