@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\VerpBackend.csproj": {}
+    "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\VerpBackend.csproj": {
+    "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\VerpBackend.csproj",
-        "projectName": "VerpBackend",
-        "projectPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\VerpBackend.csproj",
+        "projectUniqueName": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj",
+        "projectName": "VerpBackendData",
+        "projectPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\VerpBackendData.csproj",
         "packagesPath": "C:\\Users\\INFORMATION TECH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\obj\\",
+        "outputPath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackendData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\INFORMATION TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,14 +40,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.14, )"
@@ -62,9 +54,11 @@
               "target": "Package",
               "version": "[5.0.14, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
@@ -77,16 +71,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.18, 3.1.18]"
-            }
-          ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
