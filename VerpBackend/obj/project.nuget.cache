@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+Qami1iXTi2kjUV4FIC5HPmgeCO6J6Z+w0xWrj4aVT2mNWdv90EdFjBoWx0q1eEFrNj6QfNHz1kHzDwuTk/KFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\INFORMATION TECH\\Documents\\CustomSoftwareApplications\\VerpBackend\\VerpBackend\\VerpBackend\\VerpBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INFORMATION TECH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
