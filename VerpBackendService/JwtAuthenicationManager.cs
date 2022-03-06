@@ -36,7 +36,7 @@ namespace VerpBackendService
             try
             {
                 User user = await _context.Users
-                    .FirstOrDefaultAsync(x => x.PhoneNumber == model.PhoneNumber && x.Password == model.Password);
+                    .FirstOrDefaultAsync(x => x.PhoneNumber == model.PhoneNumber && x.Pin == model.Password);
                 if (user == null)
                 {
                     result.IsSuccessful = false;
